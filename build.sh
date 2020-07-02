@@ -9,10 +9,10 @@ red='\033[0;31m'
 nocol='\033[0m'
 
 # Kernel details
-KERNEL_NAME="FireKernel"
-VERSION="r2.5"
+KERNEL_NAME="Quindecim"
+VERSION="r1.0"
 DATE=$(date +"%d-%m-%Y-%I-%M")
-DEVICE="NOKIA_SDM660"
+DEVICE="DRG"
 FINAL_ZIP=$KERNEL_NAME-$VERSION-$DATE-$DEVICE.zip
 defconfig=nokia_defconfig
 
@@ -60,7 +60,7 @@ mv $ANYKERNEL_DIR/UPDATE-AnyKernel2.zip $UPLOAD_DIR/$FINAL_ZIP
 # Options
 function options() {
 echo -e "$cyan***********************************************"
-  echo "          Compiling FireKernel kernel          "
+  echo "          Compiling Quindecim Kernel          "
   echo -e "***********************************************$nocol"
   echo -e " "
   echo -e " Select one of the following types of build : "
